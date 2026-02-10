@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffff00;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Center the title with modern styling */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffff00;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  flex: 1;
+  text-shadow: 0 0 15px rgba(255, 255, 0, 0.6);
+}
+
+/* Navbar-like header with shadow */
+.header {
+  display: flex;
+  justify-content: center;  /* This centers the heading horizontally */
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #000000;
+  color: #FFD700;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(255, 215, 0, 0.3);
+  border: 2px solid #FFD700;
+  width: 100%;  /* Ensures the header takes up full width */
+}
+
+.header button {
+  background-color: #FFD700;
+  color: #000000;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.header button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+/* Search and category selection layout */
+.search-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-container input,
+.search-container select {
+  width: 250px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  color: #FFD700;
+  border: 1px solid #FFD700;
+}
+
+/* Improved table styling */
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #FFD700 !important;
+  color: #000000 !important;
+  text-align: center;
+  font-weight: 600;
+}
+
+.table tbody tr:hover {
+  background-color: #333333 !important;
+  color: #FFD700 !important;
+}
+
+/* Styled buttons */
+button {
+  padding: 8px 12px !important;
+  border-radius: 5px !important;
+  font-weight: bold !important;
+}
+
+button.btn-warning {
+  background-color: #FFD700 !important;
+  color: #000000 !important;
+  border: none !important;
+  border: 1px solid #000000 !important;
+}
+
+button.btn-warning:hover {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+button.btn-danger {
+  background-color: #dc3545 !important;
+  border: none !important;
+}
+
+button.btn-danger:hover {
+  background-color: #c82333 !important;
+}
+
+/* Styled file input */
+input[type="file"] {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  color: #FFD700;
+  border: 1px solid #FFD700;
+}
+
+/* Adjust the Logout Button positioning */
+.d-flex {
+  margin-top: 20px;  /* Add some margin to push the button further from the top */
+}
+
+body {
+  background-color: #000000; /* Black background */
+}
+
+.container {
+  background: #1a1a1a; /* Dark background for the content */
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #FFD700;
+  color: #FFD700;
+}
+
+

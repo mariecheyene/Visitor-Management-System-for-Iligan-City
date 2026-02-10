@@ -1,0 +1,82 @@
+/* Full-page background */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #4a90e2, #1f3a93); /* Smooth blue gradient */
+  text-align: center;
+}
+
+/* System Title Outside the Box */
+.system-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Centered Login Box */
+.login-container {
+  background: rgba(255, 255, 255, 0.1); /* Slight transparency */
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.login-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Login Title */
+.login-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+.btn-primary {
+  background-color: #1f3a93;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #4a90e2;
+}
+
+.form-label {
+  text-align: left;
+  display: block;
+  color: #333;
+}
+
+/* Custom toast styles */
+.custom-toast {
+  background-color: #28a745; /* Green background */
+  color: #fff; /* White text */
+  font-size: 16px; /* Larger font size */
+  border-radius: 8px; /* Rounded corners */
+  padding: 12px 24px; /* Padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+  text-align: center; /* Center text */
+  width: auto; /* Auto width */
+  max-width: 90%; /* Max width */
+  margin: 0 auto; /* Center horizontally */
+}

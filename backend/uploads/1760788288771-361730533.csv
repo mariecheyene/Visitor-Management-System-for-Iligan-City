@@ -1,0 +1,7 @@
+Inmate Code,Last Name,First Name,Middle Name,Extension,Sex,Date of Birth,Address,Marital Status,Eye Color,Complexion,Cell ID,Sentence,Date From,Date To,Crime,Emergency Name,Emergency Contact,Emergency Relation,Status
+INM002,Dela Cruz,Maria Camille,Santos,,Female,14/03/2001,"Purok 2, Barangay Acmac, Iligan City",Single,brown,fair,123,1 year imprisonment,10/15/2024,10/15/2025,Murder,chin,9123456789,sister,transferred
+INM006,Reyes,Mark Angelo,Bautista,,Female,02/07/1999,"Purok 5, Barangay Acmac, Iligan City",Married,brown,fair,124,1 year imprisonment,10/17/2024,10/17/2025,Theft,chin,9123456789,sister,released
+INM014,Mendoza,Patricia Joyce,Ramos,,Male,28/09/2002,"Purok 1, Barangay Acmac, Iligan City",Single,brown,fair,144,3 years imprisonment,10/17/2025,10/17/2025,Burglary,chin,9123456789,sister,active
+INM015,Santos,Joshua Daniel,Cruz,,Male,10/12/2000,"Purok 3, Barangay Acmac, Iligan City",Married,black,fair,123,3 years imprisonment,10/17/2025,10/17/2025,Robbery,chin,9123456789,sister,transferred
+INM016,,,,,,,,,,,,,,,,,,,
+INM017,,,,,,,,,,,,,,,,,,,

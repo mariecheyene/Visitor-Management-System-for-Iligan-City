@@ -1,0 +1,171 @@
+.profile-view {
+  padding: 20px;
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+  background-color: #1a1a1ab6;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #FFD700;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #333333;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-row strong {
+  color: #FFD700;
+  font-weight: 600;
+}
+
+.detail-row span {
+  color: #FFFFFF;
+}
+
+.password-input-wrapper {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0;
+  border: none;
+  background: none;
+  color: #6c757d;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.password-toggle:hover {
+  color: #495057;
+  text-decoration: none;
+}
+
+.password-toggle:focus {
+  box-shadow: none;
+}
+
+.password-input-wrapper .form-control {
+  padding-right: 40px;
+}
+
+.badge {
+  padding: 6px 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+/* Tab styling */
+.nav-tabs {
+  border-bottom: 2px solid #333333;
+}
+
+.nav-tabs .nav-link {
+  color: #FFD700;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 12px 20px;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #FFFFFF;
+  border-bottom-color: #FFD700;
+}
+
+.nav-tabs .nav-link.active {
+  color: #000000;
+  background-color: #FFD700;
+  border-bottom-color: #FFD700;
+}
+
+/* Form styling */
+.form-label {
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.form-control:focus {
+  border-color: #FFD700;
+  box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+}
+
+/* Alert styling */
+.alert {
+  border-radius: 6px;
+  border: 1px solid #FFD700;
+}
+
+.alert-info {
+  background-color: #333300;
+  color: #FFD700;
+  border-color: #FFD700;
+}
+
+/* Button styling */
+.btn {
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-weight: 500;
+}
+
+/* Modal header styling */
+.modal-header {
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #FFD700;
+}
+
+.modal-header .btn-close {
+  filter: brightness(0) saturate(100%) invert(81%) sepia(66%) saturate(468%) hue-rotate(358deg) brightness(103%) contrast(104%);
+  opacity: 1;
+}
+
+.modal-header .btn-close:hover {
+  opacity: 0.8;
+}
+
+.modal-title {
+  color: #FFD700;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .detail-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  
+  .profile-details {
+    padding: 15px;
+  }
+  
+  .nav-tabs .nav-link {
+    padding: 10px 15px;
+    font-size: 0.875rem;
+  }
+}

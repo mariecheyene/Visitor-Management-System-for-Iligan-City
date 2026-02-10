@@ -1,0 +1,6 @@
+id,name,birthdate,age,sex,civilStatus,purokNumber, householdNumber,employmentStatus,educationalAttainment,votersStatus,address,phone,residenceStatus,yearsOfStay,role
+11,Santos Jane,28/03/2007,17,Female,Single,3,003,Self-Employed,High School,Registered,sample address,9123456789,Owned,2,Child
+12,Bernardo Kathryn,23/08/2003,21,Male,Single,3,003,Unemployed,College,Not Registered,sample address,9506624693,Rented,13,Head
+13,Reyes Angelica,13/02/2003,22,Male,Separated,5,001,Retired,Elementary,Registered,Tanay Rizal,9123456789,Other,4,Head
+14,Cortes Angel,15/03/1998,26,Female,Single,1,002,Unemployed,College,Not Registered,sample address,9974216346,Rented,2,Spouse
+15,Chua Benedict,10/03/2003,21,Female,Married,1,003,Employed,None,Registered,sample address,9123456789,Owned,2,Other

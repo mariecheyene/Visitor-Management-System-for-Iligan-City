@@ -1,0 +1,6 @@
+id,name,birthdate,age,sex,civilStatus,purokNumber, householdNumber,employmentStatus,educationalAttainment,votersStatus,address,phone,residenceStatus,yearsOfStay,role
+11,meoww,2007-03-28,17,Female,Single,3,003,Self-Employed,High School,Registered,sample address,9123456789,Owned,2,Child
+12,arfff,2003-08-23,21,Male,Single,3,003,Unemployed,College,Not Registered,sample address,9506624693,Rented,13,Head
+13K4L4A4:Q4,quackk,2003-02-13,22,Male,Separated,5,001,Retired,Elementary,Registered,Tanay Rizal,9123456789,Other,4,Head
+14,mooo,1998-03-15,26,Female,Single,1,002,Unemployed,College,Not Registered,sample address,9974216346,Rented,2,Spouse
+15,squeakk,2003-03-10,21,Female,Married,1,003,Employed,None,Registered,sample address,9123456789,Owned,2,Other

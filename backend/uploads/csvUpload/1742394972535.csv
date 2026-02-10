@@ -1,0 +1,19 @@
+ID,Name,Birthdate,Age,Sex,Civil Status,Purok Number,Household Number,Employment Status,Educational Attainment,Voter's Status,Address,Phone,Residence Status,Years of Stay,Role
+11,"Dela Cruz, Juan",16/05/1995,29,Male,Married,2,4,Employed,College,Registered,"789 Purok 2, Acmac Highway",9056781234,Owned,5,Head
+12,"Reyes, Maria Clara",30/11/1997,27,Female,Married,2,4,Housewife,College,Registered,"789 Purok 2, Acmac Highway",9172345678,Owned,5,Spouse
+13,"Gonzales, Pedro",21/02/1989,35,Male,Single,1,5,Self-Employed,High School,Registered,"234 Purok 1, Near Chapel",9234567890,Owned,10,Head
+14,"Santos, Ana Beatriz",19/07/2002,22,Female,Single,1,5,Employed,College,Registered,"234 Purok 1, Near Chapel",9356789012,Owned,10,Child
+15,"Torres, Manuel",10/04/1985,39,Male,Married,4,6,Employed,College,Registered,"678 Purok 4, Beside Basketball Court",9876543210,Rented,8,Head
+16,"Lopez, Regina",25/12/1987,37,Female,Married,4,6,Housewife,College,Registered,"678 Purok 4, Beside Basketball Court",9567890123,Rented,8,Spouse
+17,"Villanueva, Carlos",15/06/2000,24,Male,Single,5,7,Employed,College,Registered,"890 Purok 5, Near Market",9654321098,Owned,4,Head
+18,"Cruz, Isabella",09/09/2001,23,Female,Single,5,7,Self-Employed,College,Not Registered,"890 Purok 5, Near Market",9765432109,Owned,4,Child
+19,"Fernandez, Jose",05/03/1992,32,Male,Married,6,8,Employed,College,Registered,"101 Purok 6, Riverside",9876543201,Owned,7,Head
+20,"Santiago, Julia",17/08/1993,31,Female,Married,6,8,Housewife,College,Registered,"101 Purok 6, Riverside",9087654321,Owned,7,Spouse
+21,"Ramos, Luis",25/01/1998,26,Male,Single,7,9,Unemployed,High School,Not Registered,"222 Purok 7, Behind School",9345678901,Rented,3,Head
+22,"Mendoza, Andrea",10/12/2005,19,Female,Single,7,9,Student,Senior High,Registered,"222 Purok 7, Behind School",9456789012,Rented,3,Child
+23,"Aguilar, Roberto",29/07/1978,46,Male,Married,8,10,Employed,College,Registered,"333 Purok 8, Near Plaza",9678901234,Owned,20,Head
+24,"Alvarez, Marina",11/10/1980,44,Female,Married,8,10,Housewife,College,Registered,"333 Purok 8, Near Plaza",9789012345,Owned,20,Spouse
+25,"Delos Reyes, Ben",20/06/2009,15,Male,Single,8,10,Student,Junior High,Not Registered,"333 Purok 8, Near Plaza",9890123456,Owned,15,Child
+26,"Soriano, Emilio",18/09/1990,34,Male,Married,9,11,Employed,College,Registered,"444 Purok 9, Near Basketball Court",9901234567,Owned,9,Head
+27,"Bartolome, Cecilia",22/11/1991,33,Female,Married,9,11,Housewife,College,Registered,"444 Purok 9, Near Basketball Court",9012345678,Owned,9,Spouse
+28,"Estrada, Ramon",01/04/2007,17,Male,Single,9,11,Student,High School,Registered,"444 Purok 9, Near Basketball Court",9123456789,Owned,5,Child

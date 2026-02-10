@@ -1,0 +1,6 @@
+ID,Name,Birthdate,Age,Sex,Civil Status,Purok Number,Household Number,Employment Status,Educational Attainment,Voter's Status,Address,Phone,Residence Status,Years of Stay,Role
+11,Dela Cruz Juan,16/05/1995,29,Male,Married,2,004,Employed,College,Registered,789 Purok 2  Acmac Highway,9056781234,Owned,5,Head
+12,Reyes Maria Clara,30/11/1997,27,Female,Married,2,004,Housewife,College,Registered,789 Purok 2 Acmac Highway,9172345678,Owned,5,Spouse
+13,Gonzales Pedro,21/02/1989,35,Male,Single,1,005,Self-Employed,High School,Registered,234 Purok 1 Near Chapel,9234567890,Owned,10,Head
+14,Santos Ana Beatriz,19/07/2002,22,Female,Single,1,005,Employed,College,Registered,234 Purok 1 Near Chapel,9356789012,Owned,10,Child
+15,Torres Manuel,10/04/1985,39,Male,Married,4,006,Employed,College,Registered,678 Purok 4  Beside Basketball Court,9876543210,Rented,8,Head

@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-10-24T19:30:40.900Z",
+    "type": "auto",
+    "collections": 3,
+    "totalRecords": 16
+  },
+  "collections": {
+    "inmates": [
+      {
+        "_id": "68fb6b52acbf004e1401c84b",
+        "inmateCode": "INM005",
+        "lastName": "Uy",
+        "firstName": "Cheyene Marie",
+        "cellId": "100",
+        "crime": "Murder",
+        "status": "active"
+      },
+      {
+        "_id": "68fb8743adeca9c5a34ebb54",
+        "inmateCode": "INM006",
+        "lastName": "sampler",
+        "firstName": "sample",
+        "cellId": "123",
+        "crime": "Hacking",
+        "status": "active"
+      },
+      {
+        "_id": "68fb94e5efec260b9d7ffe7b",
+        "inmateCode": "INM007",
+        "lastName": "dwadwa",
+        "firstName": "dwadaw",
+        "cellId": "123",
+        "crime": "Hacking",
+        "status": "active"
+      },
+      {
+        "_id": "68fbc486f101138f85a321f6",
+        "inmateCode": "INM008",
+        "lastName": "dwad",
+        "firstName": "dwadaw",
+        "cellId": "100",
+        "crime": "Child Abuse",
+        "status": "transferred"
+      }
+    ],
+    "visitors": [
+      {
+        "_id": "68fb6b8bacbf004e1401c857",
+        "id": "VIS003",
+        "lastName": "Uy",
+        "firstName": "Cheyene Marie",
+        "prisonerId": "INM005",
+        "status": "approved"
+      },
+      {
+        "_id": "68fb7b99adeca9c5a34eb97b",
+        "id": "VIS004",
+        "lastName": "Cruz",
+        "firstName": "Jean Oliverrr",
+        "prisonerId": "INM005",
+        "status": "rejected"
+      },
+      {
+        "_id": "68fb9bf0efec260b9d7fff91",
+        "id": "VIS006",
+        "lastName": "dwdaw",
+        "firstName": "dwad",
+        "prisonerId": "INM006",
+        "status": "approved"
+      },
+      {
+        "_id": "68fb9e5aefec260b9d8001a2",
+        "id": "VIS007",
+        "lastName": "hehe",
+        "firstName": "dwadwa",
+        "prisonerId": "INM006",
+        "status": "approved"
+      },
+      {
+        "_id": "68fba07fefec260b9d8002a0",
+        "id": "VIS008",
+        "lastName": "dwadwa",
+        "firstName": "dwadwa",
+        "prisonerId": "INM006",
+        "status": "approved"
+      },
+      {
+        "_id": "68fbb730be1ac6cef0be82f0",
+        "id": "VIS009",
+        "lastName": "SQSQ",
+        "firstName": "Cheyene Marie",
+        "prisonerId": "INM006",
+        "status": "approved"
+      },
+      {
+        "_id": "68fbd123ca518bec20302fa4",
+        "id": "VIS010",
+        "lastName": "neww",
+        "firstName": "dwadwa",
+        "prisonerId": "INM005",
+        "status": "approved"
+      },
+      {
+        "_id": "68fbd21eca518bec203030e8",
+        "id": "VIS011",
+        "lastName": "waddwa",
+        "firstName": "dadwa",
+        "prisonerId": "INM005",
+        "status": "rejected"
+      }
+    ],
+    "guests": [
+      {
+        "_id": "68fb7bf3adeca9c5a34eb992",
+        "id": "GST002",
+        "lastName": "Santos",
+        "firstName": "Juannn",
+        "visitPurpose": "research purposes",
+        "status": "completed"
+      },
+      {
+        "_id": "68fb8a6badeca9c5a34ebb92",
+        "id": "GST004",
+        "lastName": "sampler",
+        "firstName": "sample",
+        "visitPurpose": "research purposes",
+        "status": "completed"
+      },
+      {
+        "_id": "68fbd19fca518bec2030300f",
+        "id": "GST005",
+        "lastName": "dwadwa",
+        "firstName": "dwadwa",
+        "visitPurpose": "research purposes",
+        "status": "completed"
+      },
+      {
+        "_id": "68fbd2adca518bec20303231",
+        "id": "GST006",
+        "lastName": "dawdwa",
+        "firstName": "dwadwa",
+        "visitPurpose": "dawdwa",
+        "status": "completed"
+      }
+    ]
+  }
+}

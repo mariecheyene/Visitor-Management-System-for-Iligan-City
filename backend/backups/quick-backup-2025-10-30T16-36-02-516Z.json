@@ -1,0 +1,511 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-10-30T16:36:02.526Z",
+    "type": "quick",
+    "collections": 4,
+    "totalRecords": 51
+  },
+  "collections": {
+    "users": [
+      {
+        "_id": "68fbbe1bbe1ac6cef0be8bb1",
+        "name": "maleadmin",
+        "email": "maleadmin@gmail.com",
+        "role": "MaleAdmin",
+        "isActive": true,
+        "createdAt": "2025-10-24T17:57:47.807Z",
+        "updatedAt": "2025-10-24T17:57:47.807Z",
+        "__v": 0
+      },
+      {
+        "_id": "68fbbe2bbe1ac6cef0be8bb7",
+        "name": "femaleadmin",
+        "email": "femaleadmin@gmail.com",
+        "role": "FemaleAdmin",
+        "isActive": true,
+        "createdAt": "2025-10-24T17:58:03.054Z",
+        "updatedAt": "2025-10-24T17:58:03.054Z",
+        "__v": 0
+      },
+      {
+        "_id": "68fbbe3fbe1ac6cef0be8bbb",
+        "name": "sample",
+        "email": "sample@gmail.com",
+        "role": "FullAdmin",
+        "isActive": true,
+        "createdAt": "2025-10-24T17:58:23.622Z",
+        "updatedAt": "2025-10-24T17:58:23.622Z",
+        "__v": 0
+      },
+      {
+        "_id": "68fbc074f101138f85a32163",
+        "name": "fullstaff",
+        "email": "fullstaff@gmail.com",
+        "role": "FullStaff",
+        "isActive": true,
+        "createdAt": "2025-10-24T18:07:48.857Z",
+        "updatedAt": "2025-10-24T18:08:00.058Z",
+        "__v": 0
+      },
+      {
+        "_id": "690124fbbbe549a78f49a28b",
+        "name": "malestaff",
+        "email": "malestaff@gmail.com",
+        "role": "MaleStaff",
+        "isActive": true,
+        "createdAt": "2025-10-28T20:18:03.887Z",
+        "updatedAt": "2025-10-28T20:18:03.887Z",
+        "__v": 0
+      },
+      {
+        "_id": "69012512bbe549a78f49a28f",
+        "name": "femalestaff",
+        "email": "femalestaff@gmail.com",
+        "role": "FemaleStaff",
+        "isActive": true,
+        "createdAt": "2025-10-28T20:18:26.541Z",
+        "updatedAt": "2025-10-28T20:18:26.541Z",
+        "__v": 0
+      }
+    ],
+    "inmates": [
+      {
+        "_id": "68fb6b52acbf004e1401c84b",
+        "inmateCode": "INM005",
+        "lastName": "Uy",
+        "firstName": "Cheyene Marie",
+        "cellId": "100",
+        "crime": "Murder",
+        "status": "active"
+      },
+      {
+        "_id": "68fb8743adeca9c5a34ebb54",
+        "inmateCode": "INM006",
+        "lastName": "sampler",
+        "firstName": "sample",
+        "cellId": "123",
+        "crime": "Hacking",
+        "status": "active"
+      },
+      {
+        "_id": "68fb94e5efec260b9d7ffe7b",
+        "inmateCode": "INM007",
+        "lastName": "dwadwa",
+        "firstName": "dwadaw",
+        "cellId": "123",
+        "crime": "Hacking",
+        "status": "active"
+      },
+      {
+        "_id": "68fbc486f101138f85a321f6",
+        "inmateCode": "INM008",
+        "lastName": "dwad",
+        "firstName": "dwadaw",
+        "cellId": "100",
+        "crime": "Child Abuse",
+        "status": "transferred"
+      },
+      {
+        "_id": "690382b3fcdfa7d1d6867799",
+        "inmateCode": "INM009",
+        "lastName": "haii",
+        "firstName": "dsdadsa",
+        "cellId": "122",
+        "crime": "Hacking",
+        "status": "active"
+      },
+      {
+        "_id": "6903889aa204fc062e2aafa0",
+        "inmateCode": "INM010",
+        "lastName": "samplee haaa",
+        "firstName": "samplee",
+        "cellId": "100",
+        "crime": "Murder",
+        "status": "active"
+      },
+      {
+        "_id": "69038d02a204fc062e2abae5",
+        "inmateCode": "INM011",
+        "lastName": "sampler",
+        "firstName": "sample",
+        "cellId": "123",
+        "crime": "Hacking",
+        "status": "active"
+      },
+      {
+        "_id": "69038d27a204fc062e2abae9",
+        "inmateCode": "INM012",
+        "lastName": "sampler",
+        "firstName": "sample",
+        "cellId": "123",
+        "crime": "Hacking",
+        "status": "active"
+      },
+      {
+        "_id": "69038de3a204fc062e2abaed",
+        "inmateCode": "INM013",
+        "lastName": "sampler",
+        "firstName": "sample",
+        "cellId": "123",
+        "crime": "Hacking",
+        "status": "active"
+      },
+      {
+        "_id": "69038de3a204fc062e2abaf0",
+        "inmateCode": "INM014",
+        "lastName": "dwad",
+        "firstName": "dwadaw",
+        "cellId": "100",
+        "crime": "Child Abuse",
+        "status": "transferred"
+      },
+      {
+        "_id": "6903913da204fc062e2abed2",
+        "inmateCode": "INM015",
+        "lastName": "Uy",
+        "firstName": "Cheyene Marie",
+        "cellId": "100",
+        "crime": "Murder",
+        "status": "active"
+      },
+      {
+        "_id": "6903913da204fc062e2abed5",
+        "inmateCode": "INM016",
+        "lastName": "dwadwa",
+        "firstName": "dwadaw",
+        "cellId": "123",
+        "crime": "Hacking",
+        "status": "active"
+      },
+      {
+        "_id": "6903913da204fc062e2abed8",
+        "inmateCode": "INM017",
+        "lastName": "samplee haaa",
+        "firstName": "samplee",
+        "cellId": "100",
+        "crime": "Murder",
+        "status": "active"
+      }
+    ],
+    "visitors": [
+      {
+        "_id": "68fb6b8bacbf004e1401c857",
+        "id": "VIS003",
+        "lastName": "Uy",
+        "firstName": "Cheyene Marie",
+        "prisonerId": "INM005",
+        "lastVisitDate": "2025-10-30T12:04:51.421Z",
+        "status": "rejected",
+        "totalVisits": 4
+      },
+      {
+        "_id": "68fb7b99adeca9c5a34eb97b",
+        "id": "VIS004",
+        "lastName": "Cruz",
+        "firstName": "Jean Oliverrr",
+        "prisonerId": "INM005",
+        "lastVisitDate": "2025-10-30T11:56:58.222Z",
+        "status": "approved",
+        "totalVisits": 5
+      },
+      {
+        "_id": "68fb9bf0efec260b9d7fff91",
+        "id": "VIS006",
+        "lastName": "dwdaw",
+        "firstName": "dwad",
+        "prisonerId": "INM006",
+        "lastVisitDate": "2025-10-28T15:38:09.796Z",
+        "status": "rejected",
+        "totalVisits": 1
+      },
+      {
+        "_id": "68fb9e5aefec260b9d8001a2",
+        "id": "VIS007",
+        "lastName": "hehe",
+        "firstName": "dwadwa",
+        "prisonerId": "INM006",
+        "lastVisitDate": "2025-10-25T20:22:13.278Z",
+        "status": "approved",
+        "totalVisits": 1
+      },
+      {
+        "_id": "68fba07fefec260b9d8002a0",
+        "id": "VIS008",
+        "lastName": "dwadwa",
+        "firstName": "dwadwa",
+        "prisonerId": "INM006",
+        "lastVisitDate": "2025-10-28T15:54:52.027Z",
+        "status": "approved",
+        "totalVisits": 1
+      },
+      {
+        "_id": "68fbb730be1ac6cef0be82f0",
+        "id": "VIS009",
+        "lastName": "SQSQ",
+        "firstName": "Cheyene Marie",
+        "prisonerId": "INM006",
+        "lastVisitDate": "2025-10-28T14:21:09.544Z",
+        "status": "approved",
+        "totalVisits": 2
+      },
+      {
+        "_id": "68fbd123ca518bec20302fa4",
+        "id": "VIS010",
+        "lastName": "neww",
+        "firstName": "dwadwa",
+        "prisonerId": "INM005",
+        "lastVisitDate": "2025-10-30T12:05:04.142Z",
+        "status": "approved",
+        "totalVisits": 4
+      },
+      {
+        "_id": "68fbd21eca518bec203030e8",
+        "id": "VIS011",
+        "lastName": "waddwa",
+        "firstName": "dadwa",
+        "prisonerId": "INM005",
+        "lastVisitDate": "2025-10-28T15:55:07.813Z",
+        "status": "rejected",
+        "totalVisits": 2
+      },
+      {
+        "_id": "68fbd7ce379dfd31a6cac3df",
+        "id": "VIS012",
+        "lastName": "dwadwa",
+        "firstName": "dwadwa",
+        "prisonerId": "INM006",
+        "lastVisitDate": "2025-10-28T15:29:15.407Z",
+        "status": "rejected",
+        "totalVisits": 2
+      },
+      {
+        "_id": "68fbf5999bf5b5d097aab2fb",
+        "id": "VIS013",
+        "lastName": "dwdwa",
+        "firstName": "dwadwa",
+        "prisonerId": "INM006",
+        "lastVisitDate": null,
+        "status": "approved"
+      },
+      {
+        "_id": "68fd0614003cc12284657177",
+        "id": "VIS015",
+        "lastName": "hehe",
+        "firstName": "hehe",
+        "prisonerId": "INM005",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "6900ecf3e7407661dfd4de8d",
+        "id": "VIS016",
+        "lastName": "ggsjjskaL",
+        "firstName": "DAWDSDFFG",
+        "prisonerId": "INM005",
+        "lastVisitDate": "2025-10-28T16:30:23.880Z",
+        "status": "approved",
+        "totalVisits": 1
+      },
+      {
+        "_id": "6900ef3da18a3e9d28a58d50",
+        "id": "VIS018",
+        "lastName": "dwadwadw",
+        "firstName": "wdadwa",
+        "prisonerId": "INM006",
+        "lastVisitDate": "2025-10-28T16:30:10.035Z",
+        "status": "approved",
+        "totalVisits": 1
+      },
+      {
+        "_id": "69011f09bbe549a78f499612",
+        "id": "VIS019",
+        "lastName": "EXAMPLE",
+        "firstName": "fddadas",
+        "prisonerId": "INM005",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "69027556b9cbab437eb7378e",
+        "id": "VIS020",
+        "lastName": "samplenga",
+        "firstName": "dwadw",
+        "prisonerId": "INM005",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "6902771fb9cbab437eb737e1",
+        "id": "VIS021",
+        "lastName": "samplengani",
+        "firstName": "dwadwa",
+        "prisonerId": "INM005",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "69027a18b9cbab437eb73d79",
+        "id": "VIS022",
+        "lastName": "dsada",
+        "firstName": "dasda",
+        "prisonerId": "INM005",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "69027bc8d6404f6066ba1645",
+        "id": "VIS024",
+        "lastName": "dwadwad",
+        "firstName": "3131231",
+        "prisonerId": "INM005",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "69028974a04b42f6ea3ea098",
+        "id": "VIS025",
+        "lastName": "test",
+        "firstName": "dawdawd",
+        "prisonerId": "INM006",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "6902923a785aae3f952ab1c4",
+        "id": "VIS026",
+        "lastName": "malee",
+        "firstName": "dawdwa",
+        "prisonerId": "INM006",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "69029450785aae3f952ab39b",
+        "id": "VIS027",
+        "lastName": "ssds",
+        "firstName": "sss",
+        "prisonerId": "INM006",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "69029762785aae3f952ab627",
+        "id": "VIS028",
+        "lastName": "dwad",
+        "firstName": "dwadwa",
+        "prisonerId": "INM006",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "69037297fcdfa7d1d6866962",
+        "id": "VIS033",
+        "lastName": "helow",
+        "firstName": "dwadwa",
+        "prisonerId": "INM006",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "690372f0fcdfa7d1d6866982",
+        "id": "VIS034",
+        "lastName": "helow",
+        "firstName": "dwadwa",
+        "prisonerId": "INM006",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      },
+      {
+        "_id": "69037341fcdfa7d1d68669a2",
+        "id": "VIS035",
+        "lastName": "helow",
+        "firstName": "dwadwa",
+        "prisonerId": "INM006",
+        "lastVisitDate": null,
+        "status": "approved",
+        "totalVisits": 0
+      }
+    ],
+    "guests": [
+      {
+        "_id": "68fb7bf3adeca9c5a34eb992",
+        "id": "GST002",
+        "lastName": "Santos",
+        "firstName": "Juannn",
+        "visitPurpose": "research purposes",
+        "lastVisitDate": "2025-10-28T19:45:00.753Z",
+        "status": "approved",
+        "totalVisits": 1
+      },
+      {
+        "_id": "68fb8a6badeca9c5a34ebb92",
+        "id": "GST004",
+        "lastName": "sampler",
+        "firstName": "sample",
+        "visitPurpose": "research purposes",
+        "lastVisitDate": "2025-10-28T15:59:39.821Z",
+        "status": "approved",
+        "totalVisits": 2
+      },
+      {
+        "_id": "68fbd19fca518bec2030300f",
+        "id": "GST005",
+        "lastName": "dwadwa",
+        "firstName": "dwadwa",
+        "visitPurpose": "research purposes",
+        "lastVisitDate": "2025-10-29T22:44:40.610Z",
+        "status": "completed",
+        "totalVisits": 2
+      },
+      {
+        "_id": "68fbd2adca518bec20303231",
+        "id": "GST006",
+        "lastName": "dawdwa",
+        "firstName": "dwadwa",
+        "visitPurpose": "dawdwa",
+        "lastVisitDate": "2025-10-25T17:56:48.542Z",
+        "status": "approved"
+      },
+      {
+        "_id": "68fbf946415e2d30d160c0cb",
+        "id": "GST007",
+        "lastName": "try",
+        "firstName": "dwadw",
+        "visitPurpose": "research purposes",
+        "lastVisitDate": null,
+        "status": "approved"
+      },
+      {
+        "_id": "68fcf17b75f07572fea5dffc",
+        "id": "GST008",
+        "lastName": "hi",
+        "firstName": "dwd",
+        "visitPurpose": "research purposes",
+        "lastVisitDate": null,
+        "status": "approved"
+      },
+      {
+        "_id": "68fd058b003cc1228465709b",
+        "id": "GST009",
+        "lastName": "dawdawdawdaw",
+        "firstName": "addads",
+        "visitPurpose": "research purposes",
+        "lastVisitDate": null,
+        "status": "approved"
+      }
+    ]
+  }
+}

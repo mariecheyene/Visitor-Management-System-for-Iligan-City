@@ -1,0 +1,67 @@
+.modal-lower {
+  margin-top: 10vh;
+}
+
+/* Lower modal position */
+.modal-lower-position {
+  max-width: 94% !important;
+  width: 94% !important;
+  margin-top: 5vh !important; /* Push modal down from top */
+  margin-bottom: 5vh !important;
+  transform: none !important;
+}
+
+/* Ensure modal is visible */
+.modal-content {
+  max-height: 90vh;
+  overflow: hidden;
+  background-color: #0a0a0a !important;
+  border: 2px solid #FFD700 !important;
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.4) !important;
+  color: #FFD700 !important;
+}
+
+.modal-body {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+@media (max-height: 800px) {
+  .modal-lower-position {
+    margin-top: 2vh !important;
+    margin-bottom: 2vh !important;
+  }
+  
+  .modal-body {
+    max-height: 50vh;
+  }
+}
+
+
+/* Modal scrollable styles */
+.modal-content-scrollable {
+  max-height: 85vh;
+  overflow: hidden;
+}
+
+/* Compact content styles */
+.compact-content .card {
+  margin-bottom: 0.5rem;
+}
+
+.compact-content .alert {
+  margin-bottom: 0.75rem;
+}
+
+.compact-content .row {
+  margin-bottom: 0.5rem;
+}
+
+/* Ensure modal doesn't get overlapped by header */
+.modal {
+  z-index: 1060;
+}
+
+.modal-backdrop {
+  z-index: 1050;
+}
