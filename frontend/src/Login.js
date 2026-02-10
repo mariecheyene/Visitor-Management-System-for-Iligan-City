@@ -294,7 +294,7 @@ const Login = () => {
         >
           <img
             src="/img/logo.png"
-            alt="Lanao Del Norte District Jail Logo"
+            alt="Iligan Jail Logo"
             style={{
               width: "120px",
               height: "120px",

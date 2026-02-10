@@ -14,6 +14,23 @@ const { generateOTP, sendOTPEmail, sendPasswordResetOTP } = require('./utils/ema
 const app = express();
 const PORT = process.env.PORT || 5001;
 
+
+// MongoDB Connection
+const mongoUri = process.env.MONGODB_URI;
+
+if (!mongoUri) {
+  throw new Error("MONGODB_URI is not defined");
+}
+
+mongoose.connect(mongoUri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log("Connected to MongoDB Atlas"))
+.catch((err) => console.error("MongoDB connection error:", err));
+
+
+
 // Create uploads directory if not exists
 const uploadDir = path.join(__dirname, 'uploads');
 if (!fs.existsSync(uploadDir)) {
@@ -43,13 +60,6 @@ app.use(cors({
 }));
 app.use('/uploads', express.static(uploadDir));
 
-// MongoDB Connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/prison_db', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
-.then(() => console.log('Connected to MongoDB'))
-.catch((err) => console.error('MongoDB connection error:', err));
 
 // Counter Schema for auto-increment IDs
 const counterSchema = new mongoose.Schema({
